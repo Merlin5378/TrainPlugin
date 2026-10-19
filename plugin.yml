@@ -1,0 +1,14 @@
+name: MerlinSwordTrainer
+version: 1.0.0
+main: de.merlin.swordtrainer.MerlinSwordTrainer
+api-version: '1.21'
+author: Merlin
+description: Trainingsübungen für Sword-PvP: Jump Reset, Spacing und Combo-Start.
+commands:
+  st:
+    description: Sword Trainer Befehle
+    usage: /st help
+    permission: merlinswordtrainer.use
+permissions:
+  merlinswordtrainer.use:
+    default: true
